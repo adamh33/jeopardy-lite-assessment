@@ -5,7 +5,7 @@ import Welcome from "./components/welcome/Welcome";
 import Clock from "./components/clock/Clock";
 import Contact from "./components/contact/Contact";
 import Navigation from "./components/navigation/Navigation";
-
+import Jeopardy from "./components/jeopardy/Jeopardy";
 
 function App() {
   return (
@@ -20,6 +20,7 @@ function App() {
         <Route exact path="/clock" component={Clock} />
         <Route exact path="/contact" component={Contact} />
         <Route exact path="/welcome/:name" component={Welcome} />
+        <Route exact path="/jeopardy" component={Jeopardy} />
       </Switch>
     </div>
   );
